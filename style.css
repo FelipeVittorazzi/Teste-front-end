@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(1000deg, #701898 0.58%, #270053 100%);   
+}
+
+.superior { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.nome {
+    font-family: 'Overlock SC';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 48px;
+    color: aliceblue;
+}
+
+.links-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+    font-family: 'Overlock SC';
+    font-size: 23px;
+    color: aliceblue;
+    gap: 10px;
+    background-image: d;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.html5 { cursor: pointer;}
+.javascript { cursor: pointer;}
+.java { cursor: pointer;}
+.css3 { cursor: pointer;}
+
+script {
+    background:rgb(255, 255, 255);
+    width: 500px;
+    padding: 10px;
+}
+
+.container {
+    background-color: rgb(211, 234, 255);
+    text-align: center;
+    border-radius: 10px;   
+    padding: 10px;
+    width: 450px;
+    display: flex; 
+    align-items: center;
+    flex-flow: column;
+    gap: 5px;
+    margin-left: 60px;
+    box-shadow: 1px 5px 10px;
+    margin-top: 40px;
+}
+
+.inser {border-radius: 5px;}
+
+.botao {
+    background-color: rgb(23, 89, 231);
+    border-radius: 3px;
+    border:black;
+    width: 60px;
+    padding: 5px;
+    box-shadow: 0px 1px 5px black;
+    cursor: pointer;
+    color: white;
+}
+
+.botao:hover {
+    background-color: rgb(85, 109, 163);
+    border-radius: 3px;
+    border:black;
+    width: 60px;
+    padding: 5px;
+    box-shadow: 0px 2px 6px black;
+}
+
+
+.nav_tabs{
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0px 10px 40px ;
+    border-radius: 5px;
+}
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+
+.tab_label{
+    display: block;
+    width: 150px;
+    background-color: #363b48;
+    padding: 25px;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav_tabs .rd_tab { 
+display:none;
+position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+background-color: #e54e43;
+color:#fff;}
+
+.tab-content{
+border-top: solid 5px #e54e43;
+background-color: #fff;
+display: none;
+position: absolute;
+height: 320px;
+width: 600px;
+left: 0;	
+}
+
+.rd_tab:checked ~ .tab-content{
+display: block;
+}
+
+.tab-content article{
+padding: 10px;
+color: rgb(41, 41, 41);
+font-family: 'Franklin Gothic Medium';
+}
