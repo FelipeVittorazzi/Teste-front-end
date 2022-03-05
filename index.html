@@ -1,102 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icon.ico.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="assets/images/images/icon.ico.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Felipe Vittorazzi</title>
-    
 </head>
 
 <body>
+
     <header class="superior">
         <h1 class="nome">Felipe Martins Vittorazzi</h1>
-         <nav class="links-menu">
-            <p class="linkedin"><a href="https://www.linkedin.com/in/felipe-vittorazzi/" target="_blank" rel="noopener noreferrer"><img src="linkedin.svg" ></a></p>
-            <p class="github"><a href="https://github.com/FelipeVittorazzi" target="_blank" rel="noopener noreferrer"><img src="github.svg" ></a></p>
-         </nav> 
-        </header>
+        <nav class="links-menu">
+            <p class="linkedin">
+                <a href="https://www.linkedin.com/in/felipe-vittorazzi/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/linkedin.svg">
+                </a>
+            </p>
+            <p class="github">
+                <a href="https://github.com/FelipeVittorazzi" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/github.svg">
+                </a>
+            </p>
+        </nav>
+    </header>
 
     <main class="apresentacao">
-        <p class="texto1">Sou um <strong>dev</strong> em crescimento, todo dia aprendendo sobre esse incrível mundo da programação.</p>        
+        <p class="texto1">Sou um <strong>dev</strong> em crescimento, todo dia aprendendo sobre esse incrível mundo da
+            programação.</p>
         <p class="texto2">Até o momento tenho <strong>conhecimento</strong> em tais linguagens, como:</p>
         <div class="icons">
-         <p class="html5"><img src="html5.svg"<abbr title="HTML5"></p>
-         <p class="javascript"><img src="javascript.svg"<abbr title="Javascript"></p>
-         <p class="java"><img src="java.svg"<abbr title="Java" ></p>        
-         <p class="css3"><img src="css3.svg"<abbr title="CSS3"></p>  
+            <p class="html5"><img src="assets/images/html5.svg" <abbr title="HTML5"></p>
+            <p class="javascript"><img src="assets/images/javascript.svg" <abbr title="Javascript"></p>
+            <p class="java"><img src="assets/images/java.svg" <abbr title="Java"></p>
+            <p class="css3"><img src="assets/images/css3.svg" <abbr title="CSS3"></p>
         </div>
     </main>
 
- 
-    </script>
-     
     </footer>
 
 
-</body> 
 
-<nav class="nav_tabs">
-    <ul>
-        <li>
-            <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
-            <label for="tab1" class="tab_label">Projeto 01</label>
-            <div class="tab-content">
-                <article>
-                    <footer class="container">
-                        <h1>Sistema de Multas</h1>
-                    Velocidade do carro: <input class="inser" type="number" name="txtvel" id="txtvel"> km/h
-                    <input class="botao" type="button" value="Verificar" onclick="calcular()">
-                    <div id="res">
-                    </div>  
-                    <script>
-                        function calcular() {
-                            var txtv = window.document.querySelector('input#txtvel')
-                            var res = window.document.querySelector('div#res')
-                            var vel = Number(txtv.value)
-                            res.innerHTML = `<p><strong>Sua velocidade atual é de ${vel} Km/h</strong></p>`
-                            res.innerHTML += `<p><strong>Dirija sempre com cinto de segurança</strong></p>`
-                            if (vel > 60) {
-                                res.innerHTML += `<p>Você está <strong>MULTADO</strong></p>`
-                            }
-                        } 
-                           
-                    </script>
-                </article>
-            </div>
-        </li>
-        <li>
-            <input type="radio" name="tabs" class="rd_tab" id="tab2">
-            <label for="tab2" class="tab_label">Projeto 02</label>
-            <div class="tab-content">
-                <article>
-                Sed sit amet mauris vitae lorem pretium congue. Donec pulvinar auctor est, a porta ipsum vulputate ac. Ut sit amet sollicitudin ante. Sed gravida nulla et nibh consequat sagittis. Donec eu justo eu tortor elementum scelerisque. Mauris mollis volutpat tellus, id volutpat massa ultricies vel. Donec mollis arcu leo, ac ullamcorper eros viverra ut. Aliquam cursus justo nec purus condimentum, eu dignissim nunc mattis. Sed fermentum sollicitudin felis mattis malesuada. Quisque tempor tellus a odio euismod, non suscipit justo laoreet. Curabitur vel urna lorem. Pellentesque semper justo leo, in tristique ex porta at. Sed justo massa, lobortis quis hendrerit ac, eleifend vitae tellus. 
-                </article>
-            </div>
-        </li>
-        <li>
-            <input type="radio" name="tabs" class="rd_tab" id="tab3">
-            <label for="tab3" class="tab_label">Projeto 03</label>
-            <div class="tab-content">             
-                <article>
-                    Integer at ligula eget turpis elementum ultrices eget quis tortor. Duis posuere lorem justo, ut malesuada tortor tempus a. Curabitur pellentesque ultricies consectetur. Maecenas diam lorem, hendrerit eget sem ut, tincidunt vulputate ipsum. In vel enim et erat sagittis eleifend vel eu nunc. In hac habitasse platea dictumst. Integer tincidunt, augue at posuere eleifend, lacus quam hendrerit risus, aliquam sollicitudin ligula tellus quis elit. Proin varius fringilla vehicula. Phasellus mollis sollicitudin orci, id fringilla magna volutpat non. Nullam sed luctus nisl. 
-                </article>
-            </div>
-        </li>
-        <li>
-            <input type="radio" name="tabs" class="rd_tab" id="tab4">
-            <label for="tab4" class="tab_label">Projeto 04</label>
-            <div class="tab-content"> 
-                <article>
-                    Morbi condimentum, ligula in pretium feugiat, erat turpis egestas nisl, eu rutrum felis tortor eget tellus. Donec bibendum finibus sapien id vehicula. Nullam tempus, leo ut tristique pharetra, ligula sapien dictum nunc, eget lacinia mauris tellus sit amet ligula. Etiam posuere metus elementum sem feugiat laoreet. Curabitur efficitur tellus sed felis feugiat vehicula. Ut congue dui at ligula tempus accumsan. Sed ut lacus imperdiet erat aliquam pharetra. Phasellus ultricies nisi mauris, quis tincidunt tortor viverra id. Ut sit amet finibus mi, id fringilla ex. Fusce hendrerit purus nec ipsum volutpat, eu condimentum eros congue. Sed at leo tortor. In a ultrices sapien. Nulla posuere urna id urna semper aliquet. 
-                </article>
-            </div>
-        </li>
-    </ul>
-</nav>
+    <nav class="nav_tabs">
+        <ul>
+            <li>
+                <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
+                <label for="tab1" class="tab_label">Projeto 01</label>
+                <div class="tab-content">
+                    <article>
+                        <footer class="container">
+                            <h1>Sistema de Multas</h1>
+                            Velocidade do carro: <input class="inser" type="number" name="txtvel" id="txtvel"> km/h
+                            <input class="botao" type="button" value="Verificar" onclick="calcular()">
+                            <div id="res"></div>
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="tab2">
+                <label for="tab2" class="tab_label">Projeto 02</label>
+                <div class="tab-content">
+                    <article>
+                        Sed sit amet mauris vitae lorem pretium congue. Donec pulvinar auctor est, a porta ipsum
+                        vulputate
+                        ac. Ut sit amet sollicitudin ante. Sed gravida nulla et nibh consequat sagittis. Donec eu justo
+                        eu
+                        tortor elementum scelerisque. Mauris mollis volutpat tellus, id volutpat massa ultricies vel.
+                        Donec
+                        mollis arcu leo, ac ullamcorper eros viverra ut. Aliquam cursus justo nec purus condimentum, eu
+                        dignissim nunc mattis. Sed fermentum sollicitudin felis mattis malesuada. Quisque tempor tellus
+                        a
+                        odio euismod, non suscipit justo laoreet. Curabitur vel urna lorem. Pellentesque semper justo
+                        leo,
+                        in tristique ex porta at. Sed justo massa, lobortis quis hendrerit ac, eleifend vitae tellus.
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="tab3">
+                <label for="tab3" class="tab_label">Projeto 03</label>
+                <div class="tab-content">
+                    <article>
+                        Integer at ligula eget turpis elementum ultrices eget quis tortor. Duis posuere lorem justo, ut
+                        malesuada tortor tempus a. Curabitur pellentesque ultricies consectetur. Maecenas diam lorem,
+                        hendrerit eget sem ut, tincidunt vulputate ipsum. In vel enim et erat sagittis eleifend vel eu
+                        nunc.
+                        In hac habitasse platea dictumst. Integer tincidunt, augue at posuere eleifend, lacus quam
+                        hendrerit
+                        risus, aliquam sollicitudin ligula tellus quis elit. Proin varius fringilla vehicula. Phasellus
+                        mollis sollicitudin orci, id fringilla magna volutpat non. Nullam sed luctus nisl.
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tab" id="tab4">
+                <label for="tab4" class="tab_label">Projeto 04</label>
+                <div class="tab-content">
+                    <article>
+                        Morbi condimentum, ligula in pretium feugiat, erat turpis egestas nisl, eu rutrum felis tortor
+                        eget
+                        tellus. Donec bibendum finibus sapien id vehicula. Nullam tempus, leo ut tristique pharetra,
+                        ligula
+                        sapien dictum nunc, eget lacinia mauris tellus sit amet ligula. Etiam posuere metus elementum
+                        sem
+                        feugiat laoreet. Curabitur efficitur tellus sed felis feugiat vehicula. Ut congue dui at ligula
+                        tempus accumsan. Sed ut lacus imperdiet erat aliquam pharetra. Phasellus ultricies nisi mauris,
+                        quis
+                        tincidunt tortor viverra id. Ut sit amet finibus mi, id fringilla ex. Fusce hendrerit purus nec
+                        ipsum volutpat, eu condimentum eros congue. Sed at leo tortor. In a ultrices sapien. Nulla
+                        posuere
+                        urna id urna semper aliquet.
+                    </article>
+                </div>
+            </li>
+        </ul>
+    </nav>
 
+    <script src="assets/js/iniciando.js"></script>
 
+</body>
+
+</body>
 
 </html>
